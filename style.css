@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Protest Riot", sans-serif;
+}
+
+.divm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8cf60; 
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 8px rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.divimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.divinp {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.brand1 {
+    text-align: center;
+}
+
+.brand2 {
+    text-align: center;
+}
+
+.form-control {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.form-control label {
+    font-weight: bold;
+}
+
+.form-control textarea,
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Protest Riot", sans-serif;
+    border: none;
+    border-radius: 6px;
+    background-color: #ffbb00; 
+    color: black;
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+button:hover {
+    background-color: #f8cf60; 
+}
+
+#user-messages {
+  width: 0;
+  height: 0;
+  overflow: hidden; 
+}
+
+.ta{
+    resize: none;
+    height: 16px;
+}
+
+
+.message-item {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fcecc1;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.message-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.message-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
